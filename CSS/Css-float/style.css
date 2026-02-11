@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.container{
+    width: 1000px;
+    border: 8px groove rgb(0, 255, 242);
+    margin: 20px auto;
+    padding: 15px;
+    position: relative;
+}
+.container::before {
+    content: "Hot";
+    background-color: #6298f5;
+    color: #fff;
+    display: inline-block;
+    width: 50px;
+    /* height: 50px; */
+    text-align: center;
+    padding: 5px 11px;
+    position: absolute;
+    top: -19px;
+    font-family: sans-serif;
+    left: -44px;
+    border-radius: 10px 0;
+}
+.container h1{
+    background-color: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 15px;
+    color: #fff;
+}
+.nav-img img {
+    float: left;
+}
+nav.menu {
+    float: right;
+    background-color: #282828;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+nav.menu ul{
+    list-style-type: none;
+}
+nav.menu ul li{
+    float: left;
+    border-right: 1px solid #484040;
+    border-left: 1px solid #040404;
+}
+nav.menu ul li a {
+    padding: 10px 20px;
+    display: inline-block;
+    color: #ffff;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+nav.menu ul li a:hover{
+    background-color: #757272;
+    color: azure;
+    font-size: 15px;
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    -ms-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}
+.nav-img{
+    border: 2px solid green;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.box-wrap {
+    overflow: hidden;
+    margin: 10px 0;
+}
+.box-size{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right:10px
+}
+.one1{
+
+    background-color: red;
+}
+.one2 {
+    background-color: rgb(111, 0, 255);
+}
+.one3 {
+    background-color: rgb(0, 195, 255);
+}
+.one4 {
+    background-color: rgb(0, 4, 255);
+}
+.one5 {
+    background-color: rgb(229, 255, 0);
+}
+.price{
+    background-color: rgb(27, 179, 128);
+    padding: 10px 20px;
+    text-decoration: underline;
+    display: inline-block;
+}
+.ship-info{
+    background-color: rgb(9, 206, 255);
+    padding: 10px 20px;
+    margin: 10px 0;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    position: relative;
+}
+.ship-info::first-letter{
+    background-color: chartreuse;
+}
+.ship-info::after {
+    content: "Sale";
+    width: 50px;
+    /* height: 50px; */
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 2, 2);
+    position: absolute;
+    top: -19px;
+    right: -13px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 13px;
+    font-size: 15px;
+    z-index: 1;
+    border-radius: 10%;
+}
+.product-info-detaies{
+    background-color: #d6d2d2;
+    padding: 10px;
+    overflow: hidden;
+}
+.left-info {
+    background-color: #a6badd;
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+.right-para {
+    float: right;
+    background-color: rgb(182, 129, 129);
+    width: 80%;
+    padding: 21px 20px;
+    box-sizing: border-box;
+}
